@@ -2,11 +2,11 @@
 AI that simulates someone using their tweets
 
 # Outline
-- Create Django App
-- Obtain Twitter API access
-- Obtain TensorFlow API access
-- Build database in Django (create Schema)
-- Connect database to twitter API
+- [ ] Create Django App
+- [ ] Obtain Twitter API access
+- [ ] Obtain TensorFlow API access
+- [ ] Build database in Django (create Schema)
+- [ ] Connect database to twitter API
 
 # MVP Concepts
 - Create simple Twitter app that grabs a users tweets and adds them to a database.
@@ -22,4 +22,13 @@ To create an MVP app that uses the Twitter API to 'clone' a person via their twe
 - TensorFlow API
 
 # Method
-1. hello
+1. So the first step is to create a Django webserver on the local machine, since this is slightly different in each operating system the rest of this document will assume that we are using a Mac with macOSX Sierra installed.
+  - Following the instructions on the [Django Website](https://docs.djangoproject.com/en/1.10/topics/install/#installing-official-release).
+  - It is highly recommended to install Django with [virtualenv](https://virtualenv.pypa.io/en/stable/) and [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) if it is compatable with the local machine.
+  - This installation guide will assume that the current installed python version is Python 3.5
+
+# Brief
+## TensorFlow
+http://lauragelston.ghost.io/
+
+
