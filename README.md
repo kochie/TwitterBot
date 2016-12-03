@@ -27,6 +27,9 @@ To create an MVP app that uses the Twitter API to 'clone' a person via their twe
   - It is highly recommended to install Django with [virtualenv](https://virtualenv.pypa.io/en/stable/) and [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) if it is compatable with the local machine.
   - This installation guide will assume that the current installed python version is Python 3.5
 
+2. One advantage to Django is that it's super easy to make microframeworks so using this stratery we can make several smaller applications that do specific things.
+  - One server can handle the Twitter API and add tweets to a centralized data
+
 # Brief
 ## TensorFlow
 http://lauragelston.ghost.io/
